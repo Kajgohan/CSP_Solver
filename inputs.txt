@@ -1,0 +1,27 @@
+##### - variables (items and their weight)
+A 30
+B 30
+C 30
+D 30
+E 40
+F 35
+H 45
+##### - values (bags and their capacity)
+x 70
+y 90
+z 80
+##### - fitting limits (each bag must have 1 item and not more than 3 items
+1 3
+##### - unary inclusive (item B can go in bag z or y)
+B z y
+##### - unary exclusive (-first line below item A can not go in bag z)
+A z
+E y
+##### - binary equals . (item C and B need to be in the same bag)
+C B
+##### - binary not equals (Item A and E need to go in different bags)
+A E
+##### - mutual inclusive (If Item F is in either bag y of z than H must be in the other bag)
+F H x z
+F H x x
+A B x y
