@@ -1,7 +1,7 @@
 # CSP_Solver
 Solves CSP problems based on an assignment in AI
 If you look at the inputs you will see:
-Domains,
+Domains,\n
 Variables,
 Unary Exclusive Constraints,
 UNary Inclusive Constraints,
